@@ -1,0 +1,137 @@
+
+
+html {
+  width: 50em;
+  margin: 0 auto;
+  border: 1px solid gray;
+  padding: 10px;
+  background-color:lightgray;         
+    }
+
+ header {
+    width: 100%;
+    display: flex;
+    border: 1px solid;
+    padding: 0;
+    box-shadow: 2px 2px 200px 1px gray inset;
+            }
+        
+img {
+    width: 80px;
+    border-radius: 50%;
+    border: 1px solid;
+    margin-left: 10px;
+    margin-top: 4px;
+    margin-bottom: 2px;
+        }
+        
+.encabezado {
+    margin: 1px;
+    margin-left: 20px;
+    width: 100%;
+    padding: 0;
+                }
+        
+.encabezado h2 {
+    color: white;
+    padding: 0%;
+                    }
+
+fieldset {
+    height: auto;
+    margin-bottom: 10px;
+    margin-top: 0;
+    background-color:grey;
+    padding: 0;
+            }
+
+legend {
+    border: solid 1px black;
+    padding: 5px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:medium;
+    background-color: lightgrey;
+        }
+
+.contenedor {
+    display: flex;
+    width: 100%;
+                }
+
+.profecional {
+    width: 100%;
+                }
+
+.datos {
+    width: 100%;
+    max-height: fit-content;
+    margin: 8px;
+            }
+
+li {
+    width:max-content;
+    padding:0%;
+    margin-right: 0%;
+    margin-bottom: 5px;
+    content:normal;
+    font-family:'Times New Roman', Times, serif;
+    font-size:small;
+    color: white;
+        }
+
+p {
+    font-size:large;
+    }
+
+h1 {
+    margin-top: 0%;
+    margin-bottom: 0;
+    padding: 0%;
+    }
+
+h5 {
+    height: auto;
+    text-align: left;
+    padding: 0;;
+    margin: 2px;
+    margin-left: 10%;
+    margin-bottom: 0%;
+        }
+
+h6 {
+    font-family: cursive;
+    padding: 1px;
+    margin: 0%;
+        }
+
+footer {
+    text-align: center; 
+    width: 100%;
+    border: 2px solid;
+    padding:1%;
+    box-shadow: 2px 2px 1px 1px gray inset;
+    margin:auto;
+             }
+
+ .redes {
+    display: flex;
+    justify-content: space-around;
+            }
+
+ .redes img {
+    text-decoration: none;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    background: #314652;
+    color: #f1f1f1;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgb(0, 0, 0, 0.5);
+    transition: all .4s ease-in-out;
+                }
+
+ .redes img:hover {
+    transform: scale(1.2);
+                    }
